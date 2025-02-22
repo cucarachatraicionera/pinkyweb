@@ -24,7 +24,8 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
               className="absolute top-[calc(50%_-_200px)] left-[calc(50%_-_200px)] w-[400px] h-[400px] z-[1]"
               width={400}
               height={400}
-              alt=""
+              alt="Imagen de fondo"
+              src="/background-2@2x.png" // Se agregó src para evitar el error
             />
           </div>
           <div className="self-stretch flex flex-row items-start justify-start py-0 pl-[30px] pr-[31px]">
@@ -34,16 +35,16 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                   className="absolute h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full"
                   width={80}
                   height={80}
-                  alt=""
-                  src="/vector.svg"
+                  alt="Vector"
+                  src="/vector.svg" // Se agregó src
                 />
                 <Image
                   className="absolute top-[15px] left-[14.5px] w-[50px] h-[50px] object-cover z-[1]"
                   loading="lazy"
                   width={50}
                   height={50}
-                  alt=""
-                  src="/backpack-logo-1@2x.png"
+                  alt="Logo de mochila"
+                  src="/backpack-logo-1@2x.png" // Se agregó src
                 />
               </div>
             </div>
