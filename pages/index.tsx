@@ -25,7 +25,6 @@ const Desktop: NextPage = () => {
         </div>
       </section>
       <SwapSection />
-      <FrameComponent3 />
       <Footer />
     </div>
   );
