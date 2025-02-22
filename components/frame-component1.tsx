@@ -19,13 +19,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
         />
         <div className="flex-1 rounded-21xl border-gray-300 border-solid border-[1px] box-border overflow-hidden flex flex-col items-start justify-start py-[38px] pl-[34px] pr-[33px] relative gap-2.5 min-w-[157px]">
           <div className="w-[2000px] h-[2000px] absolute !m-[0] top-[calc(50%_-_1000px)] right-[-895.5px] z-[1]">
-            <Image
-              className="absolute top-[calc(50%_-_1000px)] left-[calc(50%_-_1000px)] w-full h-full object-cover"
-              width={2000}
-              height={2000}
-              alt=""
-              src="/background-2@2x.png"
-            />
+            
             <Image
               className="absolute top-[calc(50%_-_200px)] left-[calc(50%_-_200px)] w-[400px] h-[400px] z-[1]"
               width={400}
